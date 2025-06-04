@@ -144,6 +144,12 @@ h4 {
   flex-shrink: 0;
 }
 
+  .jordan-oliver {
+  font-size: 32px;
+  position: relative;
+  font-weight: 600;
+  color: var(--accent-color);
+}
 
 
 .darklight-mode-button {
@@ -1427,8 +1433,14 @@ h4 {
   .name-wrapper {
     padding: 20px;
     width: 100%;
-    font-size: 16px;
   }
+
+  .jordan-oliver {
+  font-size: 20px;
+  position: relative;
+  font-weight: 600;
+  color: var(--accent-color);
+}
 
 
    .nav-menu {
