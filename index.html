@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <script defer src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="name-wrapper">
+        <div class="jordan-oliver">Jordan Oliver</div>
+      </div>
+      <div class="nav-container">
+        <div class="nav-menu">
+          <ul id="links-wrapper">
+            <li class="home-link-container">
+              <a href="#home" class="links">Home</a>
+            </li>
+            <li class="about-link-container">
+              <a href="#about" class="links">About</a>
+            </li>
+            <li class="projects-link-container">
+              <a href="#projects" class="links">Projects</a>
+            </li>
+            <li class="contact-link-container">
+              <a href="#contact" class="links">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btns">
+          <div class="burger">
+            <div class="top"></div>
+            <div class="mid"></div>
+            <div class="btm"></div>
+          </div>
+          <li class="button-container">
+            <button class="darklight-mode-button" id="darkLightModeButton">
+              <img
+                class="environment-moon"
+                alt=""
+                src="./assets/Dark/Environment/Moon.svg"
+              />
+            </button>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="right-column">
+        <div class="photo-container">
+          <img class="image-20-icon" alt="" src="./assets/image 20.png" />
+        </div>
+      </div>
+      <div class="left-column">
+        <div class="introduction-container">
+          <div class="hero-box-container">
+            <div class="hello-container">
+              <div class="hello-im-a">Hello I’m A</div>
+              <div class="headline">
+                <span class="multiText"></span>
+              </div>
+            </div>
+            <div class="text-container">
+              <div class="im-jordan-oliver">
+                I'm Jordan Oliver, a creative web designer passionate about UX,
+                sports, and community-driven design.
+              </div>
+            </div>
+          </div>
+          <div class="icon-container">
+            <div class="application-icons">
+              <svg
+                class="svg-icons"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+                />
+              </svg>
+            </div>
+            <div class="application-icons1">
+              <svg
+                class="svg-icons"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512"
+              >
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                />
+              </svg>
+            </div>
+            <div class="application-icons2">
+              <svg
+                class="svg-icons"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  d="M14 95.8C14 42.9 56.9 0 109.8 0H274.2C327.1 0 370 42.9 370 95.8C370 129.3 352.8 158.8 326.7 175.9C352.8 193 370 222.5 370 256C370 308.9 327.1 351.8 274.2 351.8H272.1C247.3 351.8 224.7 342.4 207.7 326.9V415.2C207.7 468.8 163.7 512 110.3 512C57.5 512 14 469.2 14 416.2C14 382.7 31.2 353.2 57.2 336.1C31.2 319 14 289.5 14 256C14 222.5 31.2 193 57.2 175.9C31.2 158.8 14 129.3 14 95.8zM176.3 191.6H109.8C74.2 191.6 45.4 220.4 45.4 256C45.4 291.4 74 320.2 109.4 320.4C109.5 320.4 109.7 320.4 109.8 320.4H176.3V191.6zM207.7 256C207.7 291.6 236.5 320.4 272.1 320.4H274.2C309.7 320.4 338.6 291.6 338.6 256C338.6 220.4 309.7 191.6 274.2 191.6H272.1C236.5 191.6 207.7 220.4 207.7 256zM109.8 351.8C109.7 351.8 109.5 351.8 109.4 351.8C74 352 45.4 380.8 45.4 416.2C45.4 451.7 74.6 480.6 110.3 480.6C146.6 480.6 176.3 451.2 176.3 415.2V351.8H109.8zM109.8 31.4C74.2 31.4 45.4 60.2 45.4 95.8C45.4 131.4 74.2 160.2 109.8 160.2H176.3V31.4H109.8zM207.7 160.2H274.2C309.7 160.2 338.6 131.4 338.6 95.8C338.6 60.2 309.7 31.4 274.2 31.4H207.7V160.2z"
+                />
+              </svg>
+            </div>
+            <div class="application-icons3">
+              <svg
+                class="svg-icons"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="cta-container">
+            <a href="#contact">
+              <button class="hero-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="button-icon"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                  />
+                </svg>
+                Contact Me
+              </button>
+            </a>
+            <button class="hero-button" id="downloadResumeBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="button-icon"
+                viewbox="0 0 512 512"
+              >
+                <path
+                  d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
+                /></svg
+              >Download Resume
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me -->
+
+    <section id="about" class="about-me-section">
+      <div class="header">
+        <h4 class="about-me">About Me</h4>
+      </div>
+      <div class="about-me-container">
+        <div class="portrait-container">
+          <img
+            class="portrait-container-icon"
+            alt=""
+            src="./assets/Gradphoto.jpg"
+          />
+        </div>
+        <div class="info-container">
+          <div class="banner-container">
+            <img class="image-wrapper-icon" alt="" src="./assets/Banner.png" />
+          </div>
+          <div class="boxes-container">
+            <div class="boxes-wrappers">
+              <div class="text-wrapper">
+                <div class="about-container">
+                  <span>
+                    <p class="text">
+                      I’m Jordan Oliver, a creative thinker and web designer
+                      passionate about innovation, accessibility, and user
+                      engagement. Currently studying Web Design at the
+                      University of Central Florida, I specialize in UI/UX
+                      design, front-end development, and digital experiences
+                      that merge functionality with creativity.
+                    </p>
+
+                    <p class="text">
+                      My background spans visual design, digital marketing, and
+                      API development, with experience in tools like Figma,
+                      React Native, Framer, and PostgreSQL. I’ve worked on
+                      projects ranging from sports app development to event
+                      planning platforms and even alternative gaming
+                      controllers. I focus on crafting intuitive, visually
+                      compelling designs that enhance user interactions.
+                    </p>
+                    <p class="text">
+                      Beyond design, I have a deep appreciation for sports,
+                      gaming, and sneaker culture, and I love exploring how
+                      technology can elevate these experiences. Whether I’m
+                      refining an interface, coding an interactive feature, or
+                      brainstorming innovative solutions, my goal is always to
+                      create seamless, engaging digital experiences that leave
+                      an impact.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="projects-section">
+      <div class="header">
+        <h4 class="projects">Projects</h4>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="image-container-slideshow"
+            alt=""
+            src="./assets/SportsAppDesign.png"
+          />
+          <div class="description-container">
+            <div class="title-and-icon-wrapper">
+              <b class="sports-app">Sports App Design</b>
+              <div class="project-icon-wrapper">
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/PS.svg"
+                  />
+                </div>
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/figma2.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card1">
+          <img
+            class="image-container-slideshow"
+            alt=""
+            src="./assets/SpotOn.png"
+          />
+          <div class="description-container">
+            <div class="title-and-icon-wrapper">
+              <b class="sports-app">Event Planner App</b>
+              <div class="project-icon-wrapper">
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/Figma2.svg"
+                  />
+                </div>
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/React.svg"
+                  />
+                </div>
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/PostrgeSQL.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card2">
+          <img
+            class="image-container-slideshow"
+            alt=""
+            src="./assets/Graphic Design Thumbnail.jpg"
+          />
+          <div class="description-container2">
+            <div class="title-and-icon-wrapper">
+              <b class="sports-app">Graphic Design</b>
+              <div class="project-icon-wrapper">
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/After Effects.svg"
+                  />
+                </div>
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/PS.svg"
+                  />
+                </div>
+                <div class="application-project-icons">
+                  <img
+                    class="image-26-vectorized"
+                    alt=""
+                    src="./assets/Illustrator.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="header">
+        <h4 class="contact-me">Contact Me</h4>
+      </div>
+      <div class="contact-container">
+        <div class="icon-wrapper">
+          <img class="image-9-icon" alt="" src="assets/Contact.svg" />
+        </div>
+        <div class="info-wrapper">
+          <div class="contact-info">
+            <div class="div">352-575-8987</div>
+            <button class="copybutton" data-copy-text="352-575-8987">
+              <img class="copy-button-icon" alt="" src="assets/Copy.svg" />
+            </button>
+          </div>
+          <div class="contact-info">
+            <div class="div">jroliver5866@gmail.com</div>
+            <button class="copybutton" data-copy-text="jroliver5866@gmail.com">
+              <img class="copy-button-icon" alt="" src="assets/Copy.svg" />
+            </button>
+          </div>
+          <div class="contact-info">
+            <div class="div">@linkedin.com/in/jordanoliver01</div>
+            <button
+              class="copybutton"
+              data-copy-text="@linkedin.com/in/jordanoliver01"
+            >
+              <img class="copy-button-icon" alt="" src="assets/Copy.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footers">
+      <div class="footer-container">
+        <div class="social-icons">
+          <div class="application-icons">
+            <svg
+              class="svg-icons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
+              />
+            </svg>
+          </div>
+          <div class="application-icons1">
+            <svg
+              class="svg-icons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 496 512"
+            >
+              <path
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              />
+            </svg>
+          </div>
+          <div class="application-icons2">
+            <svg
+              class="svg-icons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+            >
+              <path
+                d="M14 95.8C14 42.9 56.9 0 109.8 0H274.2C327.1 0 370 42.9 370 95.8C370 129.3 352.8 158.8 326.7 175.9C352.8 193 370 222.5 370 256C370 308.9 327.1 351.8 274.2 351.8H272.1C247.3 351.8 224.7 342.4 207.7 326.9V415.2C207.7 468.8 163.7 512 110.3 512C57.5 512 14 469.2 14 416.2C14 382.7 31.2 353.2 57.2 336.1C31.2 319 14 289.5 14 256C14 222.5 31.2 193 57.2 175.9C31.2 158.8 14 129.3 14 95.8zM176.3 191.6H109.8C74.2 191.6 45.4 220.4 45.4 256C45.4 291.4 74 320.2 109.4 320.4C109.5 320.4 109.7 320.4 109.8 320.4H176.3V191.6zM207.7 256C207.7 291.6 236.5 320.4 272.1 320.4H274.2C309.7 320.4 338.6 291.6 338.6 256C338.6 220.4 309.7 191.6 274.2 191.6H272.1C236.5 191.6 207.7 220.4 207.7 256zM109.8 351.8C109.7 351.8 109.5 351.8 109.4 351.8C74 352 45.4 380.8 45.4 416.2C45.4 451.7 74.6 480.6 110.3 480.6C146.6 480.6 176.3 451.2 176.3 415.2V351.8H109.8zM109.8 31.4C74.2 31.4 45.4 60.2 45.4 95.8C45.4 131.4 74.2 160.2 109.8 160.2H176.3V31.4H109.8zM207.7 160.2H274.2C309.7 160.2 338.6 131.4 338.6 95.8C338.6 60.2 309.7 31.4 274.2 31.4H207.7V160.2z"
+              />
+            </svg>
+          </div>
+          <div class="application-icons3">
+            <svg
+              class="svg-icons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="copyright-container">
+          Copyright ©
+          <a
+            class="jordan-oliver"
+            href="https://thejordanoliver.github.io/MyPortfolio/home"
+            target="_blank"
+          >
+            <span class="jordan-oliver1">Jordan Oliver</span></a
+          > All rights reserved
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast">Resume downloaded!</div>
+    <a
+      id="resumeLink"
+      href="./assets/Jordan Oliver’s Resume.pdf"
+      download
+      style="display: none"
+    ></a>
+  </body>
+</html>
