@@ -144,13 +144,12 @@ h4 {
   flex-shrink: 0;
 }
 
-  .jordan-oliver {
+.jordan-oliver {
   font-size: 32px;
   position: relative;
   font-weight: 600;
   color: var(--accent-color);
 }
-
 
 .darklight-mode-button {
   width: 64px;
@@ -265,11 +264,12 @@ h4 {
   justify-content: flex-start;
   gap: 0;
 }
-.im-jordan-oliver {
+.hero-text {
   flex: 1;
   padding: 20px 0 0 0;
   position: relative;
   max-width: 430px;
+  width: 100%;
   color: var(--accent-color);
 }
 .text-container {
@@ -292,6 +292,24 @@ h4 {
 
 .portrait-container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.music-embed-container {
+  position: relative;
+  width: 100%;
+  width: 100%;
+  height: 150px; /* Adjust height if needed */
+  margin: auto;
+}
+
+.music-embed-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
 }
 
 .button-icon {
@@ -1391,7 +1409,7 @@ h4 {
   .portrait-container-icon {
     width: 100%;
     object-fit: cover;
-    object-position: 0 20%;
+    object-position: 0 0;
   }
 
   .project-container {
@@ -1436,14 +1454,18 @@ h4 {
   }
 
   .jordan-oliver {
-  font-size: 20px;
-  position: relative;
-  font-weight: 600;
-  color: var(--accent-color);
-}
+    font-size: 20px;
+    position: relative;
+    font-weight: 600;
+    color: var(--accent-color);
+  }
 
 
-   .nav-menu {
+  .hero-text {
+     padding: 20px 48px;
+  }
+
+  .nav-menu {
     position: fixed;
     top: 0;
     left: -100%;
@@ -1453,7 +1475,6 @@ h4 {
     background-color: var(--consistent-yellow);
     transition: left 0.4s ease;
   }
-
 
   .multiText {
     font-size: 60px;
@@ -1584,7 +1605,7 @@ h4 {
   .portrait-container-icon {
     width: 100%;
     object-fit: cover;
-    object-position: 0 20%;
+    object-position: 90% 20%;
   }
 
   .banner-container {
@@ -1617,7 +1638,7 @@ h4 {
   }
 
   .copyright-container {
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     width: 100%;
   }
