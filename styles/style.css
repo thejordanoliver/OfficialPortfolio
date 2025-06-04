@@ -595,6 +595,7 @@ h4 {
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
+   object-position: 0 0;
 }
 .image-wrapper-icon {
   align-self: stretch;
