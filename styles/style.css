@@ -686,6 +686,11 @@ h4 {
   position: relative;
   font-weight: 500;
 }
+
+.about-title {
+padding-top: 40px;
+}
+
 .about-me-section {
   width: 100%;
   position: relative;
@@ -1460,9 +1465,8 @@ h4 {
     color: var(--accent-color);
   }
 
-
   .hero-text {
-     padding: 20px 48px;
+    padding: 20px 48px;
   }
 
   .nav-menu {
