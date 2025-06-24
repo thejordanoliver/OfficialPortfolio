@@ -294,7 +294,6 @@ h4 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 
 .music-embed-container {
@@ -595,7 +594,7 @@ h4 {
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
-   object-position: 0 0;
+  object-position: 0 0;
 }
 .image-wrapper-icon {
   align-self: stretch;
@@ -689,7 +688,7 @@ h4 {
 }
 
 .about-title {
-padding-top: 40px;
+  padding-top: 40px;
 }
 
 .about-me-section {
@@ -1172,7 +1171,8 @@ padding-top: 40px;
   }
 
   .portrait-container-icon {
-    height: 699px;
+    height: 100%;
+
     width: 100%;
   }
 
@@ -1189,10 +1189,12 @@ padding-top: 40px;
 
   .banner-container {
     width: 500px;
+    
   }
 
   .boxes-container {
     width: 500px;
+    
   }
 
   .contact-container {
@@ -1414,6 +1416,8 @@ padding-top: 40px;
 
   .portrait-container-icon {
     width: 100%;
+        height: 100%;
+
     object-fit: cover;
     object-position: 0 0;
   }
@@ -1611,6 +1615,8 @@ padding-top: 40px;
     width: 100%;
     object-fit: cover;
     object-position: 90% 20%;
+        height: 100%;
+
   }
 
   .banner-container {
