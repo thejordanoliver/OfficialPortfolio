@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Tempo is Jordan Oliver's mobile sports app concept for tracking teams, schedules, scores, matchup context, live game chats, team and league forums, and fan messaging in a fast community-focused experience."
+    />
+    <meta name="author" content="Jordan Oliver" />
+    <meta name="theme-color" content="#ffc904" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The Tempo | Jordan Oliver" />
+    <meta
+      property="og:description"
+      content="A sports app design case study focused on live discovery, team tracking, scannable mobile UI, and fan community engagement."
+    />
+    <meta property="og:image" content="../assets/the-tempo-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Tempo | Jordan Oliver" />
+    <meta
+      name="twitter:description"
+      content="A sports app design case study focused on live discovery, team tracking, scannable mobile UI, and fan community engagement."
+    />
+    <meta name="twitter:image" content="../assets/the-tempo-preview.png" />
+
+    <title>The Tempo | Jordan Oliver</title>
+
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("theme");
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+            document.documentElement.dataset.theme = "dark";
+          }
+        } catch {
+          /* Theme preference is optional. */
+        }
+      })();
+    </script>
+
+    <link rel="icon" href="../assets/site-favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../assets/site-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <script defer src="../script/script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav id="navbar" class="navbar" aria-label="Primary navigation">
+        <a
+          class="brand"
+          href="../index.html#home"
+          aria-label="Jordan Oliver home"
+        >
+          Jordan Oliver
+        </a>
+
+        <ul class="nav-menu" id="primary-navigation">
+          <li><a href="../index.html#home" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li>
+            <a href="../index.html#projects" class="nav-link">Projects</a>
+          </li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+          >
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+
+          <button
+            class="theme-toggle"
+            id="darkLightModeButton"
+            type="button"
+            aria-label="Switch to dark mode"
+            aria-pressed="false"
+          >
+            <i
+              class="theme-toggle-icon fa-solid fa-moon"
+              aria-hidden="true"
+            ></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="project-detail-main">
+      <a class="back-link" href="../index.html#projects"
+        >&larr; Back to projects</a
+      >
+
+      <section class="project-detail-hero" aria-labelledby="project-title">
+        <figure class="project-detail-media">
+          <img
+            class="project-detail-image"
+            src="../assets/projects/the-tempo/the-tempo-preview-01.webp"
+            alt="The Tempo sports app dashboard mockup"
+            width="2048"
+            height="1152"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </figure>
+
+        <div class="project-detail-content">
+          <p class="section-kicker">Sports App Design</p>
+
+          <h1 id="project-title" class="project-detail-title">The Tempo</h1>
+
+          <p class="project-summary">
+            The Tempo is a mobile sports app concept built around the way fans
+            check games and connect with other fans quickly: team-first
+            navigation, scannable schedules, live-score moments, clear matchup
+            context, live game chats, team and league forums, and fan messaging.
+          </p>
+
+          <div class="project-meta" aria-label="Project details">
+            <div class="project-meta-item">
+              <span class="project-meta-label">Role</span>
+              <span class="project-meta-value">
+                UI/UX Design, Frontend &amp; Backend Development, Sports Product
+                Strategy
+              </span>
+            </div>
+
+            <div class="project-meta-item">
+              <span class="project-meta-label">Tools</span>
+              <span class="project-meta-value">
+                Figma, Photoshop, React Native, Node JS, Render, Supabase
+              </span>
+            </div>
+
+            <div class="project-meta-item">
+              <span class="project-meta-label">Focus</span>
+              <span class="project-meta-value">
+                Scores, schedules, team tracking, live chats, forums, messaging,
+                fan &amp; community engagement
+              </span>
+            </div>
+
+            <div class="project-meta-item">
+              <span class="project-meta-label">Platform</span>
+              <span class="project-meta-value">Mobile app concept</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="project-detail-sections"
+        aria-label="The Tempo project details"
+      >
+        <section class="detail-section">
+          <h2>Overview</h2>
+          <p>
+            The concept is designed for sports fans who want fast access to
+            teams, matchups, game times, score updates, and community spaces
+            without digging through a crowded interface.
+          </p>
+        </section>
+
+        <section class="detail-section">
+          <h2>Design focus</h2>
+          <ul class="detail-list">
+            <li>Mobile dashboard hierarchy for quick scanning.</li>
+            <li>Team-following flows that keep favorites easy to reach.</li>
+            <li>
+              Live game chats for real-time fan reactions during matchups.
+            </li>
+            <li>
+              Team and league forums that give fans dedicated spaces to talk.
+            </li>
+            <li>
+              Messaging features that support direct fan-to-fan engagement.
+            </li>
+            <li>Visual pacing built for live games and upcoming schedules.</li>
+          </ul>
+        </section>
+
+        <section class="detail-section">
+          <h2>Outcome</h2>
+          <p>
+            The result is a polished direction for a sports platform that makes
+            scores, teams, upcoming games, and fan conversations easier to
+            access without adding extra taps.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <ul class="social-list footer-socials" aria-label="Social profiles">
+            <li>
+              <a
+                class="social-link"
+                href="https://www.linkedin.com/in/jordanoliver01/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-link"
+                href="https://github.com/thejordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on GitHub"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-link"
+                href="https://www.figma.com/@jordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on Figma"
+              >
+                <i class="fa-brands fa-figma" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-link"
+                href="https://www.behance.net/thejordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on Behance"
+              >
+                <i class="fa-brands fa-behance" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            &copy; <span id="currentYear">2026</span>
+            <a
+              class="footer-link"
+              href="https://github.com/thejordanoliver"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jordan Oliver </a
+            >. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+  </body>
+</html>

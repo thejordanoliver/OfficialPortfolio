@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Graphic Design is Jordan Oliver's visual design project focused on sports, sneaker culture, motion, Photoshop, Illustrator, and After Effects."
+    />
+    <meta name="author" content="Jordan Oliver" />
+    <meta name="theme-color" content="#ffc904" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Graphic Design | Jordan Oliver" />
+    <meta
+      property="og:description"
+      content="A graphic design project focused on sports visuals, sneaker culture, motion, and bold digital brand systems."
+    />
+    <meta property="og:image" content="../assets/graphic-design-thumbnail.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Graphic Design | Jordan Oliver" />
+    <meta
+      name="twitter:description"
+      content="A graphic design project focused on sports visuals, sneaker culture, motion, and bold digital brand systems."
+    />
+    <meta name="twitter:image" content="../assets/graphic-design-thumbnail.jpg" />
+
+    <title>Graphic Design | Jordan Oliver</title>
+
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("theme");
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches;
+          if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+            document.documentElement.dataset.theme = "dark";
+          }
+        } catch {
+          /* Theme preference is optional. */
+        }
+      })();
+    </script>
+
+    <link rel="icon" href="../assets/site-favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../assets/site-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <script defer src="../script/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav id="navbar" class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="../index.html#home" aria-label="Jordan Oliver home">
+          Jordan Oliver
+        </a>
+
+        <ul class="nav-menu" id="primary-navigation">
+          <li><a href="../index.html#home" class="nav-link">Home</a></li>
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+            aria-label="Open navigation menu"
+          >
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+
+          <button
+            class="theme-toggle"
+            id="darkLightModeButton"
+            type="button"
+            aria-label="Switch to dark mode"
+            aria-pressed="false"
+          >
+            <i class="theme-toggle-icon fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="project-detail-main">
+      <a class="back-link" href="../index.html#projects">&larr; Back to projects</a>
+
+      <section class="project-detail-hero" aria-labelledby="project-title">
+        <figure class="project-detail-media">
+          <img
+            class="project-detail-image"
+            src="../assets/graphic-design-thumbnail.jpg"
+            alt="Graphic design artwork featuring basketball imagery"
+            width="2000"
+            height="2500"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </figure>
+
+        <div class="project-detail-content">
+          <p class="section-kicker">Visual Design</p>
+          <h1 id="project-title" class="project-detail-title">Graphic Design</h1>
+          <p class="project-summary">
+            This work explores sports, sneaker culture, motion, and digital
+            brand systems through bold compositions built for social and visual
+            storytelling.
+          </p>
+
+          <div class="project-meta" aria-label="Project details">
+            <div class="project-meta-item">
+              <span class="project-meta-label">Role</span>
+              <span class="project-meta-value">Graphic Design, Art Direction</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Tools</span>
+              <span class="project-meta-value">After Effects, Photoshop, Illustrator</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Focus</span>
+              <span class="project-meta-value">Sports, sneakers, motion, digital brands</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Format</span>
+              <span class="project-meta-value">Digital graphics and campaign visuals</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="project-detail-sections" aria-label="Graphic Design details">
+        <section class="detail-section">
+          <h2>Overview</h2>
+          <p>
+            The design direction leans into high-energy sports visuals,
+            confident typography, and polished digital layouts that can extend
+            across social, motion, and brand moments.
+          </p>
+        </section>
+
+        <section class="detail-section">
+          <h2>Design Focus</h2>
+          <ul class="detail-list">
+            <li>Sports-forward compositions with strong focal points.</li>
+            <li>Color, texture, and motion choices that support the subject.</li>
+            <li>Reusable visual systems for digital-first brand pieces.</li>
+          </ul>
+        </section>
+
+        <section class="detail-section">
+          <h2>Outcome</h2>
+          <p>
+            The project shows how visual design can bring energy to sports and
+            culture-focused work while still feeling intentional, organized, and
+            ready for digital use.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <ul class="social-list footer-socials" aria-label="Social profiles">
+            <li>
+              <a
+                class="social-link"
+                href="https://www.linkedin.com/in/jordanoliver01/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                href="https://github.com/thejordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on GitHub"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                href="https://www.figma.com/@thejordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on Figma"
+              >
+                <i class="fa-brands fa-figma" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                href="https://www.behance.net/thejordanoliver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Jordan Oliver on Behance"
+              >
+                <i class="fa-brands fa-behance" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span id="currentYear">2026</span>
+            <a
+              class="footer-link"
+              href="https://github.com/thejordanoliver"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jordan Oliver</a
+            >. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+  </body>
+</html>
